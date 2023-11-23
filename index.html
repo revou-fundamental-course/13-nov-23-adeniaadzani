@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maru Tour and Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <section class="navigation-header">
+            <div class="logo-container"></div>
+            <nav class="navigation">
+                <a href="Home">Home</a>
+                <a href="Our Package">Our Package</a>
+                <a href="Call Us">Call Us</a>
+            </nav>
+        </section>
+        <section class="title header">
+            <h1>Your vacation dream is here</h1>
+            <h4>Make your journey easier</h4>
+        </section>
+    </header>
+
+    <main>
+        <section id="home" class="banner">
+            <div class="slider">
+                <img src="assets/banner1.jpg" alt="Scenery 1">
+                <img src="assets/banner2.jpg" alt="Scenery 2">
+                <img src="assets/banner3.jpg" alt="Scenery 3">
+                <img src="assets/banner4.jpg" alt="Scenery 4">
+                <img src="assets/banner5.jpg" alt="Scenery 5">
+                <img src="assets/banner6.jpg" alt="Scenery 6">
+                <h3>Choose your favorite destination</h3>
+                <p>You can relax on the sun-kissed beaches of paradise, explore cultural destination, and many more!</p>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or ready to book your next adventure? Contact us!</p>
+        <form id="inquiryForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="destination">Select Your Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="beach">Exotic Beach Retreat</option>
+                <option value="mountain">Mountain Adventure</option>
+                <option value="city">City Exploration</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
